@@ -1,0 +1,32 @@
+.item {
+  height: 4rem;
+}
+
+.image {
+  overflow: hidden;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  position: relative;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.content h3 {
+  font-size: 1.25rem;
+  color: #2c292b;
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+}
+
+.date {
+  margin-left: 1rem;
+}
+
+.address {
+  margin-left: 1rem;
+}

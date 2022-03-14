@@ -1,0 +1,25 @@
+.Button {
+  background: none;
+  background-color: #4BB543;
+  color: #dafff7;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.Button:hover {
+  cursor: pointer;
+  background-color: rgb(63, 192, 54)
+}
+
+.resetButton {
+  background-color: #4758f1;
+}
+.resetButton:hover {
+  cursor: pointer;
+  background-color: rgb(60, 50, 206)
+}
