@@ -5,6 +5,10 @@ import { IMeetup } from "../components/types/meetupTypes.types";
 import classes from '../styles/Home.module.css';
 
 
+interface IProps {
+  meetups: IMeetup[]
+}
+
 const DUMMY_MEETUPS: IMeetup[] = [
   {
     id: 'm1',
@@ -56,7 +60,7 @@ const DUMMY_MEETUPS: IMeetup[] = [
   },
 ]
 
-const HomePage = ({ meetups }) => {
+const HomePage: React.FC<IProps> = ({ meetups }) => {
   const [meetupList, setMeetupList] = useState<IMeetup[]>(meetups);
   const [filteredDate, setFilteredDate] = useState({
     year: '',
